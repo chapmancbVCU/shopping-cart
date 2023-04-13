@@ -9,7 +9,7 @@ function Nav() {
 
     return (
         <nav>
-            <h3>Just Cause 3 Shop</h3>
+            <h3>Just Cause Shop</h3>
             <ul className="nav-links">
             <Link style={navStyle}to="/">
                     <li>Home</li>
