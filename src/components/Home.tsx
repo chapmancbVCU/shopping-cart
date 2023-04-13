@@ -5,7 +5,9 @@ function Home() {
     return (
         <div style={{ backgroundImage: `url(${background})`}}
             className="home">
-            <h1>Home</h1>
+            <h1 className="home-elements">Welcome to the Just Cause Shop</h1>
+            <h2 className="home-elements">The one stop shop for your dictator</h2>
+            <h2 className="home-elements">removal specialist equipment needs</h2>
         </div>
     );
 };
