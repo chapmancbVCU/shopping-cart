@@ -44,3 +44,19 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+.shop-button {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+
+  height: 35px;
+  width: 100px;
+
+  border: none;
+  border-radius: 3px;
+}
+
+.welcome {
+  margin-bottom: 25px;
+}
