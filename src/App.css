@@ -14,9 +14,17 @@
 }
 
 .home {
+  font-family: "JC3Heavy", sans-serif;
   color: white;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-elements {
+  margin-left: 15%;
 }
 
 nav {
