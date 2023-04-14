@@ -9,15 +9,14 @@ function Nav() {
 
     return (
         <nav>
-            <h3>Just Cause Shop</h3>
+            <Link className="nav-link home-link" style={navStyle}to="/">
+                <h3>Just Cause Shop</h3>
+            </Link>
             <ul className="nav-links">
-            <Link style={navStyle}to="/">
-                    <li>Home</li>
-                </Link>
-                <Link style={navStyle} to="shop">
+                <Link className="nav-link" style={navStyle} to="shop">
                     <li>Shop</li>
                 </Link>
-                <Link style={navStyle}to="/cart">
+                <Link className="nav-link" style={navStyle}to="/cart">
                     <li>Cart</li>
                 </Link>
             </ul>
