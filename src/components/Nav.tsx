@@ -1,22 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+
 function Nav() {
-
-    const navStyle = {
-        color: 'white'
-    }
-
     return (
         <nav>
-            <Link className="nav-link home-link" style={navStyle}to="/">
+            <Link className="nav-link home-link" to="/">
                 <h3>Just Cause Shop</h3>
             </Link>
             <ul className="nav-links">
-                <Link className="nav-link" style={navStyle} to="shop">
+                <Link className="nav-link" to="shop">
                     <li>Shop</li>
                 </Link>
-                <Link className="nav-link" style={navStyle}to="/cart">
+                <Link className="nav-link" to="/cart">
                     <li>Cart</li>
                 </Link>
             </ul>
