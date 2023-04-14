@@ -27,6 +27,10 @@
   margin-left: 15%;
 }
 
+.home-link {
+  margin-left: 15%;
+}
+
 nav {
   font-family: "JC3Medium", sans-serif;
   display: flex;
@@ -37,7 +41,12 @@ nav {
   color: white;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
 .nav-links {
+  margin-left: auto;
   width: 50%;
   display: flex;
   justify-content: space-around;
